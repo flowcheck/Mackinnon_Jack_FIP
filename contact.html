@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jack Photo Site</title>  
+  <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+  <div class="container">
+    <h1 class="hidden">Jack Photo Site</h1>
+    <header class="mainHeader">
+      <div class="logoHeader">
+        <img src="images/jacklogo.jpg" alt="Jack Logo" width="215" height="74" id="logo">
+      </div>
+      <nav class="mainNav">
+        <h2 class="hidden">Main Navigation</h2>
+            <ul>
+               <li class="selected"><a href="#">CONTACT</a></li>
+               <li><a href="#">PACKAGES</a></li>
+               <li><a href="gallery.html">GALLERY</a></li>
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="contact.html">HOME</a></li>
+            </ul>
+      </nav>
+    </header>
+        <main id="mainContact">
+                    <h2>Contact Us</h2>
+          <section id="contactArea">
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">Contact me about Booking/Image Licensing</p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    
+                    <label for="human">What is 5 + 4?</label>
+                    <input type="text" required id="human" size="30" placeholder="What is 5 + 4?">
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+          </section>
