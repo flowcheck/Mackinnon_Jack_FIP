@@ -60,7 +60,8 @@ text-decoration:none;
 	margin-left: auto;
 	width: 500px;
 	height: 100px;
-	margin-top: 40px;
+	margin-top: 60px;
+	margin-left: 440px;
 }
 
 .mainNav ul
@@ -89,10 +90,8 @@ text-decoration:none;
 
 
 .selected
-/*this sets a visual indicator of which page you are on in main nav*/
 {
 	padding: 5px 0px 5px 0px;
-	/*Top, Right, Bottom, Left*/
 	background-color: #ddeff7;
 }
 
@@ -112,7 +111,6 @@ text-decoration:none;
 	color: #fff;
 	font-size: 31px;
 	letter-spacing: -1px;
-	/*this tightens the spacing of the letters by -1 pixels*/
 	text-align: center;
 }
 
@@ -124,17 +122,21 @@ text-decoration:none;
 	margin-bottom: 20px;
 }
 
-
-
 .resources
 {
 	display: flex;
-	/*makes them display side by side*/
 	flex-direction: row;
 	justify-content: space-evenly;
-	/*spaces the content evenly once boxes are defined*/
 	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+#textboX
+{
+	height: 60px;
+	width: 300px;
+	margin-left: 325px;
+	margin-top: 500px;
 }
 
 .mainContent
@@ -145,27 +147,20 @@ text-decoration:none;
 	margin: 0 auto;
 }
 
-#mainImageContainer
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	margin: 0 auto;
-}
-
 #mainImage
 {
 	height: 300px;
-	width: 610px;
-	margin-left: 10px;
+	width: 410px;
+	margin-left: 20px;
 	background-color: #a59640;
-	margin-right: 50px;
+	margin-top: 50px;
 }
 
-#mainImageDesc
+#secondaryimage
 {
 	height: 300px;
-	width: 300px;
-	margin-right: 10px;
-	background-color: #ab29e1;
+	width: 410px;
+	margin-left: 300px;
+	background-color: #a59640;
+	margin-top: -125px;
 }
