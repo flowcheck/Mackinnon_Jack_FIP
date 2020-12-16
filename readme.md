@@ -14,7 +14,7 @@
 
 # Adobe Illustrator used for Logo design
 
-# Photoshop used to retouch site images
+# Photoshop used to retouch site images (files too big for github)
 
 # Includes folder missing but can be found here:
 [Includes Google Drive Link](https://drive.google.com/drive/folders/10-WZHuqjhI99BBTL97KMmsNVbkegbJ0O?usp=sharing "Includes Google Drive")
