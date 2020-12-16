@@ -15,3 +15,6 @@
 # Adobe Illustrator used for Logo design
 
 # Photoshop used to retouch site images
+
+# Includes folder missing but can be found here:
+[mackinnon_jack_fip/includes Google Drive Link](https://drive.google.com/drive/folders/10-WZHuqjhI99BBTL97KMmsNVbkegbJ0O?usp=sharing "Includes Google Drive")
