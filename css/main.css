@@ -24,7 +24,7 @@ text-decoration:none;
 a:hover, a:active { 
 text-decoration:none; 
  }
-
+/* Site Layout */
  .hidden
 {
   display: none;
@@ -149,9 +149,9 @@ text-decoration:none;
 
 #mainImage
 {
-	height: 300px;
-	width: 410px;
-	margin-left: 20px;
+	height: 400px;
+	width: 610px;
+	margin-left: 10px;
 	background-color: #a59640;
 	margin-top: 50px;
 }
@@ -175,11 +175,11 @@ text-decoration:none;
 
 #secondaryimage
 {
-	height: 300px;
-	width: 410px;
-	margin-left: 300px;
+	height: 400px;
+	width: 610px;
+	margin-left: 310px;
 	background-color: #a59640;
-	margin-top: -125px;
+	margin-top: -175px;
 }
 
 #copyContainer
